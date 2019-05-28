@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.article{
+  padding: .5rem;
+  width: 200px;
+  border: 1px solid black;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
